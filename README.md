@@ -2,7 +2,8 @@
 
 A sleek, modern, and responsive **BMI (Body Mass Index) Calculator** built with pure HTML, CSS, and JavaScript. Features live BMI calculation, an animated gauge, dark/light mode toggle, and a beautiful glassmorphism design. Perfect for health enthusiasts and developers looking for a clean, interactive web app!
 
-<img width="953" height="434" alt="image" src="https://github.com/user-attachments/assets/48781578-927b-41b1-954c-05b5d71f2684" />
+<img width="955" height="437" alt="image" src="https://github.com/user-attachments/assets/e9aea00a-7442-4ffd-8bf2-a5a5d917a11e" />
+
 
 
 ## ✨ Features
