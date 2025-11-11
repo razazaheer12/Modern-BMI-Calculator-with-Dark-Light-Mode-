@@ -2,7 +2,7 @@
 
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-View%20Here-brightgreen)](https://razazaheer12.github.io/modern-bmi-calculator)  
 [![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-blue)](https://github.com/razazaheer12/modern-bmi-calculator)  
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
 
 A sleek, modern, and responsive **BMI (Body Mass Index) Calculator** built with pure HTML, CSS, and JavaScript. Features live BMI calculation, an animated gauge, dark/light mode toggle, and a beautiful glassmorphism design. Perfect for health enthusiasts and developers looking for a clean, interactive web app!
 
@@ -61,7 +61,7 @@ modern-bmi-calculator/
 ├── style.css           # Stylesheet for design and themes
 ├── script.js           # JavaScript for functionality
 ├── README.md           # This file
-└── TODO.md             # Development notes (optional)
+
 ```
 
 ## 🛠️ Technologies Used
