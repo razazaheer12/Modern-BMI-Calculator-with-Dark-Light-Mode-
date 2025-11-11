@@ -1,11 +1,10 @@
 #  Modern BMI Calculator (with Dark/Light Mode)
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-View%20Here-brightgreen)](https://razazaheer12.github.io/modern-bmi-calculator)  
+[![Live Demo](https://live-bmi-calculator-12.netlify.app/)  
 
 A sleek, modern, and responsive **BMI (Body Mass Index) Calculator** built with pure HTML, CSS, and JavaScript. Features live BMI calculation, an animated gauge, dark/light mode toggle, and a beautiful glassmorphism design. Perfect for health enthusiasts and developers looking for a clean, interactive web app!
 
-![BMI Calculator Preview](https://via.placeholder.com/800x400/141e30/ffffff?text=BMI+Calculator+Preview)  
-*(Add a screenshot of your app here by replacing the placeholder URL)*
+![BMI Calculator Preview](https://live-bmi-calculator-12.netlify.app/)  
 
 ## ✨ Features
 
@@ -20,7 +19,7 @@ A sleek, modern, and responsive **BMI (Body Mass Index) Calculator** built with 
 
 ## 🚀 Demo
 
-Check out the live demo: [Modern BMI Calculator](https://razazaheer12.github.io/modern-bmi-calculator)
+Check out the live demo: [Modern BMI Calculator](https://live-bmi-calculator-12.netlify.app/)
 
 ## 📋 How to Use
 
