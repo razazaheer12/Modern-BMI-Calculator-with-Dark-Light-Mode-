@@ -4,7 +4,7 @@
 
 A sleek, modern, and responsive **BMI (Body Mass Index) Calculator** built with pure HTML, CSS, and JavaScript. Features live BMI calculation, an animated gauge, dark/light mode toggle, and a beautiful glassmorphism design. Perfect for health enthusiasts and developers looking for a clean, interactive web app!
 
-![BMI Calculator Preview](https://live-bmi-calculator-12.netlify.app/)  
+
 
 ## ✨ Features
 
