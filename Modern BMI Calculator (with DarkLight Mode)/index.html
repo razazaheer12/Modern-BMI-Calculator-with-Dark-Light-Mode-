@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Modern Live-BMI Calculator</title> 
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="toggle-container">
+    <div class="toggle" id="themeToggle" title="Toggle Dark/Light Mode"></div>
+  </div>
+
+  <div class="container">
+    <h2> Live BMI Calculator 💪</h2>
+
+    <input type="number" id="weight" placeholder="Enter weight (kg)" />
+    <input type="number" id="height" placeholder="Enter height (cm)" />
+
+    <!-- Animated Gauge -->
+    <div class="gauge">
+      <svg width="180" height="180">
+        <circle class="bg" cx="90" cy="90" r="90"></circle>
+        <circle class="progress" cx="90" cy="90" r="90"></circle>
+      </svg>
+      <div class="bmi-value" id="bmiValue">--</div>
+    </div>
+
+    <div id="result"></div>
+    <div class="category" id="category"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

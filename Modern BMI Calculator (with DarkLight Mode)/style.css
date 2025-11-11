@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  transition: all 0.3s ease;
+}
+
+:root {
+  --bg: linear-gradient(135deg, #ffffff, #ffffff);
+  --card-bg: rgba(255, 255, 255, 0.15);
+  --text: #222;
+  --input-bg: rgba(255, 255, 255, 0.25);
+  --button-bg: #4facfe;
+  --button-text: #fff;
+  --glass-border: rgba(255, 255, 255, 0.3);
+}
+
+body.dark {
+  --bg: linear-gradient(135deg, #141e30, #243b55);
+  --card-bg: rgba(31, 41, 55, 0.6);
+  --text: #e5e7eb;
+  --input-bg: rgba(55, 65, 81, 0.4);
+  --button-bg: #2563eb;
+  --button-text: #fff;
+  --glass-border: rgba(255, 255, 255, 0.1);
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: var(--bg);
+  color: var(--text);
+  overflow: hidden;
+}
+
+.container {
+  backdrop-filter: blur(15px);
+  background: var(--card-bg);
+  padding: 35px 25px;
+  border-radius: 25px;
+  border: 1px solid var(--glass-border);
+  width: 90%;
+  max-width: 380px;
+  text-align: center;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+  animation: float 4s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+}
+
+h2 {
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-size: 1.6rem;
+}
+
+input {
+  width: 85%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 10px;
+  background: var(--input-bg);
+  color: var(--text);
+  font-size: 1rem;
+  outline: none;
+}
+
+input::placeholder {
+  color: #ccc;
+}
+
+/* ===== Gauge ===== */
+.gauge {
+  position: relative;
+  width: 180px;
+  height: 180px;
+  margin: 25px auto 15px;
+}
+
+.gauge svg {
+  transform: rotate(-90deg);
+}
+
+.gauge circle {
+  fill: none;
+  stroke-width: 12;
+  stroke-linecap: round;
+}
+
+.gauge .bg {
+  stroke: #ddd;
+  opacity: 0.2;
+}
+
+.gauge .progress {
+  stroke: #4facfe;
+  stroke-dasharray: 565;
+  stroke-dashoffset: 565;
+  transition: stroke-dashoffset 1s ease, stroke 0.5s ease;
+}
+
+.bmi-value {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+#result {
+  margin-top: 10px;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.category {
+  margin-top: 5px;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+/* ===== Toggle ===== */
+.toggle-container {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.toggle {
+  width: 50px;
+  height: 25px;
+  background: #ccc;
+  border-radius: 25px;
+  position: relative;
+  cursor: pointer;
+}
+
+.toggle::before {
+  content: "";
+  position: absolute;
+  width: 21px;
+  height: 21px;
+  background: white;
+  border-radius: 50%;
+  top: 2px;
+  left: 2px;
+  transition: 0.3s ease;
+}
+
+body.dark .toggle {
+  background: #4facfe;
+}
+
+body.dark .toggle::before {
+  transform: translateX(25px);
+}
+
+@media (max-width: 480px) {
+  h2 { font-size: 1.3rem; }
+  input { font-size: 0.9rem; }
+  .bmi-value { font-size: 1.3rem; }
+}
