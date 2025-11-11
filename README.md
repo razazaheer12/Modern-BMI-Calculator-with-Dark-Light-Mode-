@@ -95,8 +95,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Raza Zaheer**  
 - GitHub: [@razazaheer12](https://github.com/razazaheer12)  
-- Email: [your-email@example.com](raazzaheer2002@gmail.com)
-- LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/in/raza-zaheer-416745340/)  
+- Email: [razazaheer2002@gmail.com](raazzaheer2002@gmail.com)
+- LinkedIn: [https://www.linkedin.com/in/raza-zaheer-416745340/](https://www.linkedin.com/in/raza-zaheer-416745340/)  
 
 Feel free to reach out for questions, feedback, or collaborations!
 
